@@ -1,158 +1,159 @@
-PRIVACY POLICY
+    PRIVACY POLICY
 
-Last Updated: January 5, 2026
+    Last Updated: January 5, 2026
 
-Run for Weight Loss ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you use our mobile application ("App").
+    Run for Weight Loss ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you use our mobile application ("App").
 
-1. INFORMATION WE COLLECT
+    1. INFORMATION WE COLLECT
 
-1.1 Location Data
-Our App collects and stores location data (GPS coordinates) when you use the running tracking feature. This data is collected only when you:
-- Start a running session
-- Grant location permissions to the App
-- Use the GPS tracking functionality
+    1.1 Location Data
+    Our App collects and stores location data (GPS coordinates) when you use the running tracking feature. This data is collected only when you:
+    - Start a running session
+    - Grant location permissions to the App
+    - Use the GPS tracking functionality
 
-Location data includes:
-- GPS coordinates of your running route
-- Timestamps associated with location points
-- Distance traveled during your runs
+    Location data includes:
+    - GPS coordinates of your running route
+    - Timestamps associated with location points
+    - Distance traveled during your runs
 
-1.2 Running Activity Data
-The App collects and stores the following information related to your running activities:
-- Distance covered during each run
-- Duration of each run
-- Average pace
-- Estimated calories burned
-- Timestamp of each run
-- Route coordinates
+    1.2 Running Activity Data
+    The App collects and stores the following information related to your running activities:
+    - Distance covered during each run
+    - Duration of each run
+    - Average pace
+    - Estimated calories burned
+    - Timestamp of each run
+    - Route coordinates
 
-1.3 App Preferences and Settings
-The App stores your preferences and settings, including:
-- Reminder settings (time and days)
-- Display preferences
+    1.3 App Preferences and Settings
+    The App stores your preferences and settings, including:
+    - Reminder settings (time and days)
+    - Display preferences
 
-2. HOW WE USE YOUR INFORMATION
+    2. HOW WE USE YOUR INFORMATION
 
-We use the collected information solely for the following purposes:
-- To track and display your running routes on maps
-- To calculate and display running statistics (distance, duration, pace, calories)
-- To provide running history and progress tracking
-- To enable achievement system functionality
-- To send you running reminders (if enabled)
-- To improve the App's functionality and user experience
+    We use the collected information solely for the following purposes:
+    - To track and display your running routes on maps
+    - To calculate and display running statistics (distance, duration, pace, calories)
+    - To provide running history and progress tracking
+    - To enable achievement system functionality
+    - To send you running reminders (if enabled)
+    - To improve the App's functionality and user experience
 
-3. DATA STORAGE AND RETENTION
+    3. DATA STORAGE AND RETENTION
 
-All data collected by the App is stored locally on your device using Core Data. We do not transmit, upload, or sync your data to any external servers or cloud services. Your data remains on your device and under your control.
+    All data collected by the App is stored locally on your device using Core Data. We do not transmit, upload, or sync your data to any external servers or cloud services. Your data remains on your device and under your control.
 
-You can delete your data at any time by:
-- Uninstalling the App (which will remove all stored data)
-- Manually deleting individual runs from within the App
+    You can delete your data at any time by:
+    - Uninstalling the App (which will remove all stored data)
+    - Manually deleting individual runs from within the App
 
-4. DATA SHARING AND DISCLOSURE
+    4. DATA SHARING AND DISCLOSURE
 
-We do not share, sell, rent, or disclose your personal information or running data to any third parties, including:
-- Advertising networks
-- Analytics providers
-- Data brokers
-- Social media platforms
-- Any other external services
+    We do not share, sell, rent, or disclose your personal information or running data to any third parties, including:
+    - Advertising networks
+    - Analytics providers
+    - Data brokers
+    - Social media platforms
+    - Any other external services
 
-Your data is completely private and stored only on your device.
+    Your data is completely private and stored only on your device.
 
-5. LOCATION PERMISSIONS
+    5. LOCATION PERMISSIONS
 
-The App requests location permissions to:
-- Track your running routes using GPS
-- Calculate distance traveled
-- Display your route on maps
+    The App requests location permissions to:
+    - Track your running routes using GPS
+    - Calculate distance traveled
+    - Display your route on maps
 
-Location data is accessed only when:
-- You explicitly start a running session
-- The App is actively running (foreground use)
-- You have granted location permissions
+    Location data is accessed only when:
+    - You explicitly start a running session
+    - The App is actively running (foreground use)
+    - You have granted location permissions
 
-You can revoke location permissions at any time through your device's Settings. Note that revoking location permissions will disable the GPS tracking features of the App.
+    You can revoke location permissions at any time through your device's Settings. Note that revoking location permissions will disable the GPS tracking features of the App.
 
-6. CHILDREN'S PRIVACY
+    6. CHILDREN'S PRIVACY
 
-Our App is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us, and we will delete such information.
+    Our App is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us, and we will delete such information.
 
-7. YOUR RIGHTS
+    7. YOUR RIGHTS
 
-You have the following rights regarding your data:
-- **Access**: You can view all your running data within the App
-- **Deletion**: You can delete individual runs or uninstall the App to delete all data
-- **Control**: You can control location permissions through your device settings
-- **Export**: Your data is stored locally, and you have full control over it
+    You have the following rights regarding your data:
+    - **Access**: You can view all your running data within the App
+    - **Deletion**: You can delete individual runs or uninstall the App to delete all data
+    - **Control**: You can control location permissions through your device settings
+    - **Export**: Your data is stored locally, and you have full control over it
 
-8. DATA SECURITY
+    8. DATA SECURITY
 
-We implement appropriate technical measures to protect your data:
-- Data is stored locally on your device using Apple's Core Data framework
-- No data is transmitted over the internet
-- No data is stored on external servers
-- Your device's built-in security measures protect your data
+    We implement appropriate technical measures to protect your data:
+    - Data is stored locally on your device using Apple's Core Data framework
+    - No data is transmitted over the internet
+    - No data is stored on external servers
+    - Your device's built-in security measures protect your data
 
-However, please note that no method of data storage or transmission is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.
+    However, please note that no method of data storage or transmission is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.
 
-9. THIRD-PARTY SERVICES
+    9. THIRD-PARTY SERVICES
 
-Our App does not integrate with any third-party services, analytics platforms, advertising networks, or social media platforms. All functionality is provided through native iOS frameworks.
+    Our App does not integrate with any third-party services, analytics platforms, advertising networks, or social media platforms. All functionality is provided through native iOS frameworks.
 
-10. CHANGES TO THIS PRIVACY POLICY
+    10. CHANGES TO THIS PRIVACY POLICY
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by:
-- Updating the "Last Updated" date at the top of this policy
-- Posting the new Privacy Policy in the App Store listing
+    We may update this Privacy Policy from time to time. We will notify you of any changes by:
+    - Updating the "Last Updated" date at the top of this policy
+    - Posting the new Privacy Policy in the App Store listing
 
-You are advised to review this Privacy Policy periodically for any changes.
+    You are advised to review this Privacy Policy periodically for any changes.
 
-11. CONTACT US
+    11. CONTACT US
 
-If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
+    If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
 
-Email: [Your Email Address]
-Developer: Artem Menshikov
+    Email: [Your Email Address]
+    Developer: Artem Menshikov
 
-12. CONSENT
+    12. CONSENT
 
-By using our App, you consent to this Privacy Policy and agree to the collection and use of information in accordance with this policy.
+    By using our App, you consent to this Privacy Policy and agree to the collection and use of information in accordance with this policy.
 
----
+    ---
 
-ADDITIONAL INFORMATION FOR APP STORE CONNECT:
+    ADDITIONAL INFORMATION FOR APP STORE CONNECT:
 
-Data Collection Practices:
-- The App collects location data when users actively use the GPS tracking feature
-- All data is stored locally on the user's device
-- No data is transmitted to external servers
-- No data is shared with third parties
-- Users can delete data by uninstalling the App
+    Data Collection Practices:
+    - The App collects location data when users actively use the GPS tracking feature
+    - All data is stored locally on the user's device
+    - No data is transmitted to external servers
+    - No data is shared with third parties
+    - Users can delete data by uninstalling the App
 
-Data Used to Track You:
-- None. The App does not track users across other apps or websites.
+    Data Used to Track You:
+    - None. The App does not track users across other apps or websites.
 
-Data Linked to You:
-- Location data (only when using GPS tracking)
-- Running activity data (stored locally only)
+    Data Linked to You:
+    - Location data (only when using GPS tracking)
+    - Running activity data (stored locally only)
 
-Data Not Linked to You:
-- None collected
+    Data Not Linked to You:
+    - None collected
 
-Data Not Collected:
-- Personal identification information (name, email, phone number)
-- Payment information
-- Contact information
-- Device identifiers for tracking
-- Advertising identifiers
+    Data Not Collected:
+    - Personal identification information (name, email, phone number)
+    - Payment information
+    - Contact information
+    - Device identifiers for tracking
+    - Advertising identifiers
 
----
+    ---
 
-NOTES FOR IMPLEMENTATION:
-1. Replace [Your Email Address] with your actual contact email
-2. Update the "Last Updated" date when making changes
-3. This policy should be hosted on a website and linked in App Store Connect
-4. Consider creating a simple website or using a privacy policy generator service to host this policy
-5. The URL to this policy should be entered in App Store Connect under "Privacy Policy URL"
+    NOTES FOR IMPLEMENTATION:
+    1. Replace [Your Email Address] with your actual contact email
+    2. Update the "Last Updated" date when making changes
+    3. This policy should be hosted on a website and linked in App Store Connect
+    4. Consider creating a simple website or using a privacy policy generator service to host this policy
+    5. The URL to this policy should be entered in App Store Connect under "Privacy Policy URL"
+
 

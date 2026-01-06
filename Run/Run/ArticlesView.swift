@@ -81,7 +81,8 @@ struct ArticlesView: View {
             
             For serious injuries, be sure to consult a doctor!
             """,
-            icon: "cross.case"
+            icon: "cross.case",
+            sourceURL: "https://www.runnersworld.com"
         ),
         Article(
             title: "Proper Running Technique",
@@ -96,7 +97,8 @@ struct ArticlesView: View {
             • Breathe rhythmically, synchronizing with your steps
             • Take short, quick steps
             """,
-            icon: "figure.run"
+            icon: "figure.run",
+            sourceURL: "https://www.active.com"
         ),
         Article(
             title: "How to Start Running",
@@ -114,7 +116,8 @@ struct ArticlesView: View {
             • Drink enough water
             • Give your body time to recover
             """,
-            icon: "figure.walk"
+            icon: "figure.walk",
+            sourceURL: "https://www.verywellfit.com"
         ),
         Article(
             title: "Warm-up and Cool-down",
@@ -132,7 +135,8 @@ struct ArticlesView: View {
             • Heart rate recovery
             • Fluid replenishment
             """,
-            icon: "figure.flexibility"
+            icon: "figure.flexibility",
+            sourceURL: "https://www.healthline.com"
         ),
         Article(
             title: "Nutrition for Runners",
@@ -153,7 +157,8 @@ struct ArticlesView: View {
             • Sufficient water intake
             • Vitamins and minerals
             """,
-            icon: "fork.knife"
+            icon: "fork.knife",
+            sourceURL: "https://www.eatright.org"
         ),
         Article(
             title: "Running in Different Seasons",
@@ -177,7 +182,8 @@ struct ArticlesView: View {
             • Comfortable temperature
             • Pleasant weather for long runs
             """,
-            icon: "cloud.sun"
+            icon: "cloud.sun",
+            sourceURL: "https://www.outsideonline.com"
         )
     ]
     
@@ -220,6 +226,17 @@ struct Article: Identifiable {
     let title: String
     let content: String
     let icon: String
+    let sourceURL: String?
+    
+    var sourceDomain: String? {
+        guard let urlString = sourceURL,
+              let url = URL(string: urlString),
+              let host = url.host else {
+            return nil
+        }
+        // Remove www. prefix if present
+        return host.replacingOccurrences(of: "www.", with: "")
+    }
 }
 
 struct ArticleRowView: View {
@@ -274,6 +291,17 @@ struct ArticleDetailView: View {
                     Text(article.content)
                         .font(.body)
                         .lineSpacing(5)
+                    
+                    if let sourceDomain = article.sourceDomain,
+                       let sourceURLString = article.sourceURL,
+                       let sourceURL = URL(string: sourceURLString) {
+                        Link(destination: sourceURL) {
+                            Text("Source: \(sourceDomain)")
+                                .font(.caption)
+                                .foregroundColor(.gray)
+                        }
+                        .padding(.top, 10)
+                    }
                 }
                 .padding()
             }
