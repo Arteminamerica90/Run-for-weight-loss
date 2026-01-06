@@ -1,0 +1,13 @@
+SHORT DESCRIPTION (170 characters max for App Store):
+Transform your running into a weight loss journey. Track runs with GPS, view statistics, unlock achievements, and learn proper running techniques.
+
+---
+
+SUBTITLE (30 characters max):
+Run to Lose Weight
+
+---
+
+PROMOTIONAL TEXT (170 characters max - optional, can be changed frequently):
+Start your weight loss journey today! Track runs, view progress, unlock achievements. Perfect companion for runners of all levels.
+

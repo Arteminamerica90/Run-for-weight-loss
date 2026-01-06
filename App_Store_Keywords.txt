@@ -1,0 +1,32 @@
+KEYWORDS FOR APP STORE CONNECT (100 characters max):
+
+RECOMMENDED OPTIONS:
+
+Option 1 (97 characters) - Balanced, recommended:
+running,run tracker,jogging,weight loss,fitness,GPS,route,workout,exercise,cardio,training,health
+
+Option 2 (99 characters) - Maximum coverage with marathon:
+running,run tracker,jogging,weight loss,fitness,GPS,route,workout,exercise,cardio,training,marathon
+
+Option 3 (97 characters) - Weight loss focus:
+running,weight loss,fitness,run tracker,jogging,GPS,route,workout,exercise,cardio,training,health
+
+Option 4 (90 characters) - Compact:
+running,jogging,run tracker,weight loss,fitness,GPS,route,workout,exercise,cardio,training
+
+Option 5 (100 characters) - Maximum length with "running app":
+running,run tracker,jogging,weight loss,fitness,GPS,route,workout,exercise,cardio,running app,health
+
+---
+
+⭐ FINAL RECOMMENDED (Option 1 - 97 characters):
+running,run tracker,jogging,weight loss,fitness,GPS,route,workout,exercise,cardio,training,health
+
+---
+
+NOTES:
+- Keywords are separated by commas (NO spaces after commas)
+- Do NOT repeat words from app name ("Run", "Weight Loss" are already indexed by App Store)
+- Focus on popular search terms that users actually search for
+- Maximum 100 characters including commas
+- All options are valid and within the limit
