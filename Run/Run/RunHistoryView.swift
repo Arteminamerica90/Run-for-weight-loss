@@ -109,7 +109,7 @@ struct RunRowView: View {
             Spacer()
             
             VStack(alignment: .trailing, spacing: 5) {
-                Text("\(String(format: "%.2f", run.distance)) км")
+                Text("\(String(format: "%.2f", run.distance)) km")
                     .font(.headline)
                 Text(formatDuration(run.duration))
                     .font(.caption)
@@ -286,7 +286,7 @@ struct ActiveRunRowView: View {
             Spacer()
             
             VStack(alignment: .trailing, spacing: 5) {
-                Text("\(String(format: "%.2f", viewModel.distance)) км")
+                Text("\(String(format: "%.2f", viewModel.distance)) km")
                     .font(.headline)
                 Text(viewModel.formatTime(viewModel.duration))
                     .font(.caption)

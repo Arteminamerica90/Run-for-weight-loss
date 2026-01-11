@@ -136,7 +136,7 @@ struct HomeView: View {
     }
     
     private var runProgress: Double {
-        // Прогресс относительно цели 5 км для пробежки
+        // Progress relative to 5 km goal for the run
         let targetDistance: Double = 5.0
         let distance = viewModel.isRunning ? viewModel.distance : (runs.first?.distance ?? 0.0)
         return min(distance / targetDistance, 1.0)
@@ -241,7 +241,7 @@ struct HomeView: View {
                                     Text("\(String(format: "%.2f", currentRunDistance))")
                                         .font(.system(size: 40, weight: .bold))
                                         .foregroundColor(Color(hex: "C393FF"))
-                                    Text("км")
+                                    Text("km")
                                         .font(.subheadline)
                                         .foregroundColor(Color(hex: "C393FF").opacity(0.9))
                                 }
@@ -663,14 +663,14 @@ struct DayStatRow: View {
             
             if day.count > 0 {
                 VStack(alignment: .trailing, spacing: 3) {
-                    Text("\(String(format: "%.2f", day.distance)) км")
+                    Text("\(String(format: "%.2f", day.distance)) km")
                         .fontWeight(.semibold)
-                    Text("\(day.count) пробежек")
+                    Text("\(day.count) runs")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
             } else {
-                Text("Нет пробежек")
+                Text("No runs")
                     .font(.caption)
                     .foregroundColor(.secondary)
             }

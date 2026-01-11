@@ -35,7 +35,7 @@ struct ActiveRunView: View {
                             VStack {
                                 Text(viewModel.formatTime(viewModel.duration))
                                     .font(.system(size: 32, weight: .bold))
-                                Text("Время")
+                                Text("Time")
                                     .font(.caption)
                                     .foregroundColor(.secondary)
                             }
@@ -43,7 +43,7 @@ struct ActiveRunView: View {
                             VStack {
                                 Text("\(viewModel.formatDistance(viewModel.distance))")
                                     .font(.system(size: 32, weight: .bold))
-                                Text("км")
+                                Text("km")
                                     .font(.caption)
                                     .foregroundColor(.secondary)
                             }
@@ -51,7 +51,7 @@ struct ActiveRunView: View {
                             VStack {
                                 Text(viewModel.distance > 0 ? String(format: "%.1f", (viewModel.duration / 60.0) / viewModel.distance) : "0.0")
                                     .font(.system(size: 32, weight: .bold))
-                                Text("мин/км")
+                                Text("min/km")
                                     .font(.caption)
                                     .foregroundColor(.secondary)
                             }
@@ -66,7 +66,7 @@ struct ActiveRunView: View {
                                 }) {
                                     HStack {
                                         Image(systemName: "stop.fill")
-                                        Text("Завершить")
+                                        Text("Finish")
                                     }
                                     .frame(maxWidth: .infinity)
                                     .padding()
@@ -80,7 +80,7 @@ struct ActiveRunView: View {
                                 }) {
                                     HStack {
                                         Image(systemName: "play.fill")
-                                        Text("Старт")
+                                        Text("Start")
                                     }
                                     .frame(maxWidth: .infinity)
                                     .padding()
@@ -99,7 +99,7 @@ struct ActiveRunView: View {
                     .padding()
                 }
             }
-            .navigationTitle("Пробежка")
+            .navigationTitle("Run")
             .navigationBarTitleDisplayMode(.inline)
             .onAppear {
                 if !viewModel.isRunning {

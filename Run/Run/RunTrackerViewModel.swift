@@ -72,7 +72,7 @@ class RunTrackerViewModel: ObservableObject {
     private func saveRun() {
         guard let startTime = startTime else { return }
         
-        // Сохраняем пробежку даже если дистанция 0, если была хотя бы минимальная длительность
+        // Save the run even if distance is 0, if there was at least a minimum duration
         guard duration > 0 else { return }
         
         let run = Run(context: viewContext)

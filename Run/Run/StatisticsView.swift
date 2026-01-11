@@ -21,26 +21,26 @@ struct StatisticsView: View {
                 VStack(spacing: 25) {
                     // Overall Stats
                     VStack(spacing: 15) {
-                        Text("Общая статистика")
+                        Text("Overall Statistics")
                             .font(.title2)
                             .fontWeight(.bold)
                             .frame(maxWidth: .infinity, alignment: .leading)
                         
                         HStack(spacing: 15) {
-                            StatBox(title: "Всего пробежек", value: "\(runs.count)", icon: "figure.run", color: .blue)
-                            StatBox(title: "Всего км", value: String(format: "%.1f", totalDistance), icon: "map", color: .green)
+                            StatBox(title: "Total Runs", value: "\(runs.count)", icon: "figure.run", color: .blue)
+                            StatBox(title: "Total km", value: String(format: "%.1f", totalDistance), icon: "map", color: .green)
                         }
                         
                         HStack(spacing: 15) {
-                            StatBox(title: "Всего времени", value: formatTime(totalDuration), icon: "clock", color: .orange)
-                            StatBox(title: "Средний темп", value: averagePace > 0 ? String(format: "%.1f", averagePace) : "—", icon: "speedometer", color: .purple)
+                            StatBox(title: "Total Time", value: formatTime(totalDuration), icon: "clock", color: .orange)
+                            StatBox(title: "Average Pace", value: averagePace > 0 ? String(format: "%.1f", averagePace) : "—", icon: "speedometer", color: .purple)
                         }
                     }
                     .padding()
                     
                     // Weekly Stats
                     VStack(alignment: .leading, spacing: 15) {
-                        Text("Статистика по дням (последние 7 дней)")
+                        Text("Daily Statistics (Last 7 Days)")
                             .font(.title3)
                             .fontWeight(.semibold)
                         
@@ -55,7 +55,7 @@ struct StatisticsView: View {
                 }
                 .padding(.vertical)
             }
-            .navigationTitle("Статистика")
+            .navigationTitle("Statistics")
         }
     }
     
@@ -100,9 +100,9 @@ struct StatisticsView: View {
         let hours = Int(time) / 3600
         let minutes = Int(time) / 60 % 60
         if hours > 0 {
-            return "\(hours)ч \(minutes)м"
+            return "\(hours)h \(minutes)m"
         }
-        return "\(minutes)м"
+        return "\(minutes)m"
     }
 }
 
