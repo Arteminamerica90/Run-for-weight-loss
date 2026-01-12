@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Run
+
+  English localization for Info.plist keys
+*/
+
+"NSLocationWhenInUseUsageDescription" = "The app needs access to your location to track your running route";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "The app needs access to your location to track your running route even in the background";
